@@ -19,7 +19,7 @@ public class NopolExample {
 		int reachableVariable = 3;
 		int unreachableVariable;
 		if ("aaaa".startsWith("b")) {
-			unreachableVariable = 23;
+			unreachableVariable = 23
 		} else {
 			if (! aBoolean || reachableVariable < 2) {
 				unreachableVariable = 10;
