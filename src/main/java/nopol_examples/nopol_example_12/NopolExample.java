@@ -3,7 +3,17 @@ public class NopolExample {
     public boolean isEmpty(java.util.List list) {
         java.util.ArrayList list2 = new java.util.ArrayList();
         int x = 3; // 3 should also be added to the list of constants
+        list = new NopolExamplePackageFile().returnList(list);
         if (list.isEmpty())
+            return true;
+        foo(null);
+        int y = x + list2.size(); // required for preventing the compiler to remive the variable (collection is done at ru  qntime)
+        return false;
+    }
+    public boolean isEmpty2(java.util.List list) {
+        java.util.ArrayList list2 = new java.util.ArrayList();
+        int x = 3; // 3 should also be added to the list of constants
+        if (new NopolExampleStackFile().isEmpty(list))
             return true;
         foo(null);
         int y = x + list2.size(); // required for preventing the compiler to remive the variable (collection is done at ru  qntime)

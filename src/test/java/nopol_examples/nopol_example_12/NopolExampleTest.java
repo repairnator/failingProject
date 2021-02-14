@@ -31,6 +31,11 @@ public class NopolExampleTest {
 
     @Test
     public void test_4() {
+        assertTrue(new NopolExample().isEmpty2(null));
+    }
+
+    @Test
+    public void test_5() {
         List<Integer> list = new ArrayList<>();
         list.add(1);
         list.add(2);
