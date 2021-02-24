@@ -5,6 +5,6 @@ import java.util.List;
 public class NopolExampleStackFile {
 
     public boolean isEmpty(List list) {
-        return list.isEmpty();
+        return new NopolExample().isEmpty(list);
     }
 }

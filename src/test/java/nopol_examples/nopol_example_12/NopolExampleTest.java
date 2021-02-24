@@ -31,7 +31,7 @@ public class NopolExampleTest {
 
     @Test
     public void test_4() {
-        assertTrue(new NopolExample().isEmpty2(null));
+        assertTrue(new NopolExampleStackFile().isEmpty(null));
     }
 
     @Test

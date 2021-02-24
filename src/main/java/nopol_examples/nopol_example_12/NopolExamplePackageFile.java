@@ -5,7 +5,7 @@ import java.util.List;
 public class NopolExamplePackageFile {
 
     public List returnList(List list) {
-        return list;
+        return null;
     }
 
 }
