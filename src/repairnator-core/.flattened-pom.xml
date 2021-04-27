@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>fr.inria.repairnator</groupId>
+    <artifactId>repairnator-root</artifactId>
+    <version>3.3-SNAPSHOT</version>
+  </parent>
+  <groupId>fr.inria.repairnator</groupId>
+  <artifactId>repairnator-core</artifactId>
+  <version>3.3-SNAPSHOT</version>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/eclipse/repairnator/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>fr.inria.jtravis</groupId>
+      <artifactId>jtravis</artifactId>
+      <version>2.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mongodb</groupId>
+      <artifactId>mongodb-driver</artifactId>
+      <version>3.2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.mail</groupId>
+      <artifactId>javax.mail</artifactId>
+      <version>1.5.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.spotify</groupId>
+      <artifactId>docker-client</artifactId>
+      <version>8.11.1</version>
+    </dependency>
+  </dependencies>
+</project>

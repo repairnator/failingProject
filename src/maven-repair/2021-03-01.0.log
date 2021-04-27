@@ -1,0 +1,38 @@
+00:18:33.891 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java]
+00:18:33.893 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/test-classes/, file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/classes/, file:/home/andre/.m2/repository/fr/inria/gforge/spirals/nopol/666abb764bf1819f6c316faf4fe5b559ac583de1/nopol-666abb764bf1819f6c316faf4fe5b559ac583de1.jar]
+00:18:33.893 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+00:18:33.893 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [nopol_examples.nopol_example_1.NopolExampleTest]
+00:18:33.895 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='null', projectSources=[/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java], projectClasspath='[Ljava.net.URL;@4d96250', projectTests=[nopol_examples.nopol_example_1.NopolExampleTest], complianceLevel=7, outputFolder=/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/nopol, json=true}
+00:18:33.895 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 12
+00:18:33.897 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 104 MB
+00:18:33.897 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 1 GB
+00:18:33.897 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 126 MB
+00:18:33.897 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: null
+00:18:33.898 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: null
+00:18:33.898 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/andre/.scripts:/home/andre/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin
+00:18:35.721 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+00:18:35.729 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1
+00:18:35.729 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 1
+00:18:35.730 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+00:18:35.730 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+00:18:35.731 [main] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 1831ms
+00:18:35.731 [main] INFO  fr.inria.lille.repair.nopol.NoPol - 
+00:20:57.021 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java]
+00:20:57.023 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/test-classes/, file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/classes/, file:/home/andre/.m2/repository/fr/inria/gforge/spirals/nopol/666abb764bf1819f6c316faf4fe5b559ac583de1/nopol-666abb764bf1819f6c316faf4fe5b559ac583de1.jar]
+00:20:57.023 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+00:20:57.023 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [nopol_examples.nopol_example_1.NopolExampleTest]
+00:20:57.025 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=DYNAMOTH, oracle=ANGELIC, solver=Z3, solverPath='null', projectSources=[/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java], projectClasspath='[Ljava.net.URL;@4d96250', projectTests=[nopol_examples.nopol_example_1.NopolExampleTest], complianceLevel=7, outputFolder=/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/nopol, json=true}
+00:20:57.025 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 12
+00:20:57.027 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 113 MB
+00:20:57.027 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 1 GB
+00:20:57.028 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 126 MB
+00:20:57.028 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: null
+00:20:57.028 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: null
+00:20:57.028 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/andre/.scripts:/home/andre/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin
+00:20:58.896 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+00:20:58.916 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1
+00:20:58.916 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 1
+00:20:58.919 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+00:20:58.921 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+00:20:58.922 [main] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 1876ms
+00:20:58.922 [main] INFO  fr.inria.lille.repair.nopol.NoPol - 

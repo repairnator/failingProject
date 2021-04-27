@@ -1,0 +1,318 @@
+16:26:35.615 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:26:35.618 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE STEPS
+16:26:35.618 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:26:35.618 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject
+16:26:35.618 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix
+16:26:35.618 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject
+16:26:35.618 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath
+16:26:35.619 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir
+16:26:35.619 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir
+16:26:35.619 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation
+16:26:35.619 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules
+16:26:35.619 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile
+16:26:52.157 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+16:26:52.159 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:26:52.159 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/target/surefire-reports for the individual test results.
+16:26:52.159 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+16:26:52.181 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:26:52.181 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+16:26:52.181 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:26:52.182 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+16:26:52.182 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+16:27:02.651 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+16:27:02.651 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/main/java
+16:27:02.660 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - 1 test dir was found:
+16:27:02.661 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/test/java
+16:27:02.743 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2
+16:27:02.754 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+16:27:02.754 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 1
+16:27:02.755 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 1
+16:27:02.755 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 0
+16:27:02.755 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+16:27:02.755 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 1
+16:27:02.755 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+16:27:02.757 [main] INFO  f.i.s.r.p.step.repair.NPERepair - NPE found, start NPEFix
+16:27:02.762 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Using scope class, 1 files/dirs will be used
+16:27:04.071 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 1/100 1%
+16:27:04.077 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 2/100 2%
+16:27:04.084 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 3/100 3%
+16:27:04.089 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 4/100 4%
+16:27:04.095 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 5/100 5%
+16:27:04.180 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,3 +7,7 @@
+ 	public String methodThrowingNPE() {
+-		return nullString.toString();
++		if (nullString == null) {
++			return new String().toString();
++		} else {
++			return nullString.toString();
++		}
+ 	}
+
+16:27:04.181 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,2 +7,5 @@
+ 	public String methodThrowingNPE() {
++		if (nullString == null) {
++			nullString = new String();
++		}
+ 		return nullString.toString();
+
+16:27:04.181 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,3 +7,5 @@
+ 	public String methodThrowingNPE() {
+-		return nullString.toString();
++		if (nullString != null) {
++			return nullString.toString();
++		}
+ 	}
+
+16:27:04.181 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,2 +7,5 @@
+ 	public String methodThrowingNPE() {
++		if (nullString == null) {
++			return null;
++		}
+ 		return nullString.toString();
+
+16:27:04.181 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,2 +7,5 @@
+ 	public String methodThrowingNPE() {
++		if (nullString == null) {
++			return new String();
++		}
+ 		return nullString.toString();
+
+16:27:04.223 [main] INFO  f.i.s.r.p.step.repair.NPERepair - The repository won't be forked.
+16:27:04.243 [main] INFO  f.i.s.r.p.step.repair.NPERepair - 
+16:27:04.319 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:27:04.319 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE EXECUTION SUMMARY
+16:27:04.319 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:27:04.320 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject..........................................SUCCESS [ 14 s ]
+16:27:04.320 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix................................................SUCCESS [  1 s ]
+16:27:04.320 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject...........................................SUCCESS [  3 s ]
+16:27:04.320 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath......................................SUCCESS [ 10 s ]
+16:27:04.320 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir......................................SUCCESS [  0 s ]
+16:27:04.320 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir........................................SUCCESS [  0 s ]
+16:27:04.320 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation.................................SUCCESS [  0 s ]
+16:27:04.320 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules........................................SUCCESS [  0 s ]
+16:27:04.320 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile.....................................SUCCESS [  0 s ]
+16:27:04.321 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:27:04.322 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE FINDING: PATCHED
+16:27:04.322 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+18:35:28.827 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+18:35:28.853 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE STEPS
+18:35:28.853 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+18:35:28.853 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject
+18:35:28.854 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix
+18:35:28.854 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject
+18:35:28.854 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath
+18:35:28.854 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir
+18:35:28.854 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir
+18:35:28.854 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation
+18:35:28.854 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules
+18:35:28.854 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile
+18:35:46.837 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+18:35:46.839 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+18:35:46.840 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/target/surefire-reports for the individual test results.
+18:35:46.840 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+18:35:46.845 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+18:35:46.846 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+18:35:46.847 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+18:35:46.847 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+18:35:46.847 [Thread-4] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+18:36:01.869 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+18:36:01.869 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/main/java
+18:36:01.874 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - 1 test dir was found:
+18:36:01.875 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/test/java
+18:36:01.926 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2
+18:36:01.948 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+18:36:01.948 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 1
+18:36:01.949 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 1
+18:36:01.949 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 0
+18:36:01.949 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+18:36:01.949 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 1
+18:36:01.949 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+18:36:01.952 [main] INFO  f.i.s.r.p.step.repair.NPERepair - NPE found, start NPEFix
+18:36:01.957 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Using scope class, 1 files/dirs will be used
+18:36:03.464 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 1/100 1%
+18:36:03.468 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 2/100 2%
+18:36:03.473 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 3/100 3%
+18:36:03.477 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 4/100 4%
+18:36:03.481 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 5/100 5%
+18:36:03.579 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,3 +7,7 @@
+ 	public String methodThrowingNPE() {
+-		return nullString.toString();
++		if (nullString == null) {
++			return new String().toString();
++		} else {
++			return nullString.toString();
++		}
+ 	}
+
+18:36:03.579 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,2 +7,5 @@
+ 	public String methodThrowingNPE() {
++		if (nullString == null) {
++			nullString = new String();
++		}
+ 		return nullString.toString();
+
+18:36:03.579 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,3 +7,5 @@
+ 	public String methodThrowingNPE() {
+-		return nullString.toString();
++		if (nullString != null) {
++			return nullString.toString();
++		}
+ 	}
+
+18:36:03.579 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,2 +7,5 @@
+ 	public String methodThrowingNPE() {
++		if (nullString == null) {
++			return null;
++		}
+ 		return nullString.toString();
+
+18:36:03.579 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,2 +7,5 @@
+ 	public String methodThrowingNPE() {
++		if (nullString == null) {
++			return new String();
++		}
+ 		return nullString.toString();
+
+18:36:03.634 [main] INFO  f.i.s.r.p.step.repair.NPERepair - The repository won't be forked.
+18:36:03.653 [main] INFO  f.i.s.r.p.step.repair.NPERepair - 
+18:36:03.748 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+18:36:03.749 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE EXECUTION SUMMARY
+18:36:03.749 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+18:36:03.749 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject..........................................SUCCESS [ 14 s ]
+18:36:03.749 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix................................................SUCCESS [  1 s ]
+18:36:03.749 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject...........................................SUCCESS [  5 s ]
+18:36:03.750 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath......................................SUCCESS [ 14 s ]
+18:36:03.750 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir......................................SUCCESS [  0 s ]
+18:36:03.750 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir........................................SUCCESS [  0 s ]
+18:36:03.750 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation.................................SUCCESS [  0 s ]
+18:36:03.750 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules........................................SUCCESS [  0 s ]
+18:36:03.750 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile.....................................SUCCESS [  0 s ]
+18:36:03.751 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+18:36:03.751 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE FINDING: PATCHED
+18:36:03.751 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+19:35:59.442 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+19:35:59.463 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE STEPS
+19:35:59.463 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+19:35:59.463 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject
+19:35:59.463 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix
+19:35:59.464 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject
+19:35:59.464 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath
+19:35:59.464 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir
+19:35:59.464 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir
+19:35:59.464 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation
+19:35:59.464 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules
+19:35:59.464 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile
+19:36:16.331 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+19:36:16.332 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+19:36:16.332 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/target/surefire-reports for the individual test results.
+19:36:16.333 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+19:36:16.345 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+19:36:16.345 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+19:36:16.345 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+19:36:16.345 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+19:36:16.345 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+19:36:26.481 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+19:36:26.481 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/main/java
+19:36:26.491 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - 1 test dir was found:
+19:36:26.492 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/test/java
+19:36:26.584 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2
+19:36:26.594 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+19:36:26.595 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 1
+19:36:26.595 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 1
+19:36:26.595 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 0
+19:36:26.595 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+19:36:26.595 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 1
+19:36:26.595 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+19:36:26.602 [main] INFO  f.i.s.r.p.step.repair.NPERepair - NPE found, start NPEFix
+19:36:26.613 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Using scope class, 1 files/dirs will be used
+19:36:27.934 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 1/100 1%
+19:36:27.939 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 2/100 2%
+19:36:27.948 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 3/100 3%
+19:36:27.954 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 4/100 4%
+19:36:27.960 [main] INFO  f.i.s.r.p.step.repair.NPERepair - Multirun 5/100 5%
+19:36:28.041 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,3 +7,7 @@
+ 	public String methodThrowingNPE() {
+-		return nullString.toString();
++		if (nullString == null) {
++			return new String().toString();
++		} else {
++			return nullString.toString();
++		}
+ 	}
+
+19:36:28.041 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,2 +7,5 @@
+ 	public String methodThrowingNPE() {
++		if (nullString == null) {
++			nullString = new String();
++		}
+ 		return nullString.toString();
+
+19:36:28.041 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,3 +7,5 @@
+ 	public String methodThrowingNPE() {
+-		return nullString.toString();
++		if (nullString != null) {
++			return nullString.toString();
++		}
+ 	}
+
+19:36:28.041 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,2 +7,5 @@
+ 	public String methodThrowingNPE() {
++		if (nullString == null) {
++			return null;
++		}
+ 		return nullString.toString();
+
+19:36:28.041 [main] INFO  f.i.s.r.p.step.repair.NPERepair - --- a/src/main/java/Coneflower.java
++++ b/src/main/java/Coneflower.java
+@@ -7,2 +7,5 @@
+ 	public String methodThrowingNPE() {
++		if (nullString == null) {
++			return new String();
++		}
+ 		return nullString.toString();
+
+19:36:28.085 [main] INFO  f.i.s.r.p.step.repair.NPERepair - The repository won't be forked.
+19:36:28.106 [main] INFO  f.i.s.r.p.step.repair.NPERepair - 
+19:36:28.202 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+19:36:28.202 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE EXECUTION SUMMARY
+19:36:28.203 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+19:36:28.203 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject..........................................SUCCESS [ 14 s ]
+19:36:28.203 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix................................................SUCCESS [  1 s ]
+19:36:28.203 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject...........................................SUCCESS [  3 s ]
+19:36:28.203 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath......................................SUCCESS [ 10 s ]
+19:36:28.203 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir......................................SUCCESS [  0 s ]
+19:36:28.203 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir........................................SUCCESS [  0 s ]
+19:36:28.203 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation.................................SUCCESS [  0 s ]
+19:36:28.203 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules........................................SUCCESS [  0 s ]
+19:36:28.203 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile.....................................SUCCESS [  0 s ]
+19:36:28.205 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+19:36:28.206 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE FINDING: PATCHED
+19:36:28.206 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------

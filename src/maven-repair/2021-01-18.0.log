@@ -1,0 +1,12 @@
+00:05:30.328 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+00:05:30.331 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE STEPS
+00:05:30.331 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+00:05:30.331 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFixSafe
+00:05:30.331 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject
+00:05:30.331 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject
+00:05:30.331 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation
+00:05:30.331 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath
+00:05:30.331 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir
+00:05:30.334 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir
+00:05:30.334 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules
+00:05:30.334 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile

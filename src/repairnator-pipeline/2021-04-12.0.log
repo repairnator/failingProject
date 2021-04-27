@@ -1,0 +1,119 @@
+10:50:50.262 [main] INFO  fr.inria.jtravis.JTravis - No Github token has been given, try to connect using environment information
+10:50:51.022 [main] INFO  fr.inria.jtravis.JTravis - GitHub ratelimit: Limit: 60 Remaining: 59 Reset hour: 18:30:21
+10:50:52.708 [main] INFO  f.i.s.r.process.git.GitHelper - Init git submodules.
+10:51:04.803 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project TestingProject: There are test failures.
+10:51:04.804 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+10:51:04.805 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /tmp/patch_classification13101146633529551284/fermadeiral/TestingProject/target/surefire-reports for the individual test results.
+10:51:04.805 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+10:51:04.808 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+10:51:04.808 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+10:51:04.809 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+10:51:04.809 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+10:51:04.810 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+10:51:05.832 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/patch_classification13101146633529551284/fermadeiral/TestingProject
+10:51:05.834 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+10:51:05.834 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 4
+10:51:05.834 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 4
+10:51:05.834 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 3
+10:51:05.834 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 1
+10:51:05.835 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 0
+10:51:05.835 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+10:51:15.840 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+10:51:15.841 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /tmp/patch_classification13101146633529551284/fermadeiral/TestingProject/src/main/java
+10:51:15.922 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/tmp/patch_classification13101146633529551284/fermadeiral/TestingProject/src/main/java]
+10:51:15.923 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/tmp/patch_classification13101146633529551284/fermadeiral/TestingProject/.m2/junit/junit/4.11/junit-4.11.jar, file:/tmp/patch_classification13101146633529551284/fermadeiral/TestingProject/.m2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/tmp/patch_classification13101146633529551284/fermadeiral/TestingProject/target/classes/, file:/tmp/patch_classification13101146633529551284/fermadeiral/TestingProject/target/test-classes/]
+10:51:15.923 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: COND_THEN_PRE
+10:51:15.924 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [Tests]
+10:51:15.927 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=false, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=COND_THEN_PRE, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='src/test/resources/z3/z3_for_linux', projectSources=[/tmp/patch_classification13101146633529551284/fermadeiral/TestingProject/src/main/java], projectClasspath='[Ljava.net.URL;@199c7a22', projectTests=[Tests], complianceLevel=8, outputFolder=/tmp/patch_classification13101146633529551284/fermadeiral/TestingProject/repairnator.nopolsingletest.results, json=false}
+10:51:15.928 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 12
+10:51:15.951 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 110 MB
+10:51:15.952 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 1 GB
+10:51:15.952 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 152 MB
+10:51:15.953 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: null
+10:51:15.953 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: null
+10:51:15.953 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/andre/.scripts:/home/andre/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin
+10:51:16.243 [main] INFO  spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+10:51:19.365 [pool-13-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+Main.java:24: error: missing return statement
+    }
+    ^
+10:51:19.379 [pool-13-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class Main {
+    public static int anything(int a, int b) {
+        if (a < 10) {
+            return a + b;
+        } else {
+            boolean spoonDefaultValue = false;
+            try {
+                spoonDefaultValue = true;
+            } catch (java.lang.Exception __NopolProcessorException) {
+            }
+            boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+            if (fr.inria.lille.commons.trace.RuntimeValues.instance(0).isEnabled()) {
+                fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectionStarts();
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("a",a);} catch (Exception ex1) {ex1.printStackTrace();};
+                try{fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectInput("b",b);} catch (Exception ex1) {ex1.printStackTrace();};
+                fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectOutput(runtimeAngelicValue);
+                fr.inria.lille.commons.trace.RuntimeValues.instance(0).collectionEnds();
+            }
+            if (runtimeAngelicValue)
+                return a - b;
+
+        }
+    }
+
+    public static void main(java.lang.String[] args) {
+        int a = 1;
+        int b = 3;
+        int sum = fr.inria.spirals.testingprojectforbears.Main.anything(a, b);
+        java.lang.System.out.println(sum);
+        a = 10;
+        b = 2;
+        sum = fr.inria.spirals.testingprojectforbears.Main.anything(a, b);
+        java.lang.System.out.println(sum);
+    }
+}
+10:51:19.380 [pool-4-thread-1] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+10:51:20.198 [pool-15-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: fr.inria.spirals.testingprojectforbears.Main:6: CONDITIONAL b <= 2
+10:51:20.475 [pool-15-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "b <= 2" is working
+10:51:20.485 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+10:51:20.487 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1
+10:51:20.487 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 2
+10:51:20.487 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 2
+10:51:20.487 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+10:51:20.487 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 4
+10:51:20.488 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 2
+10:51:20.488 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT components: [4] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2]
+10:51:20.488 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol -                   class java.lang.Boolean: 4
+10:51:20.488 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 10
+10:51:20.488 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 4564ms
+10:51:20.488 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - 
+10:51:20.488 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+10:51:20.488 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - b <= 2
+10:51:20.488 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 4
+10:51:20.488 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - fr.inria.spirals.testingprojectforbears.Main:6: CONDITIONAL
+10:51:20.500 [pool-4-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/main/java/fr/inria/spirals/testingprojectforbears/Main.java
++++ b/src/main/java/fr/inria/spirals/testingprojectforbears/Main.java
+@@ -5,3 +5,3 @@
+ 	public static int anything(int a, int b) {
+-		if (a < 10) {
++		if (b <= 2) {
+ 			return a + b;
+
+10:51:20.586 [main] INFO  f.i.s.r.p.s.r.n.NopolSingleTestRepair - Classifying patches with mode ODS
+10:51:21.206 [main] INFO  spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+10:51:21.393 [main] INFO  f.i.s.r.p.s.r.n.NopolSingleTestRepair - The repository won't be forked.
+10:51:21.395 [main] INFO  f.i.s.r.p.s.r.n.NopolSingleTestRepair - Serialize all data for build: 203797975
+10:51:21.444 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+10:51:21.444 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE EXECUTION SUMMARY
+10:51:21.444 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+10:51:21.444 [main] INFO  f.i.s.r.p.i.ProjectInspector - CloneRepository.......................................SUCCESS [  1 s ]
+10:51:21.445 [main] INFO  f.i.s.r.p.i.ProjectInspector - NopolSingleTest.......................................SUCCESS [  5 s ]
+10:51:21.445 [main] INFO  f.i.s.r.p.i.ProjectInspector - CheckoutBuggyBuild....................................SUCCESS [  0 s ]
+10:51:21.445 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject...........................................SUCCESS [ 13 s ]
+10:51:21.445 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation.................................SUCCESS [  0 s ]
+10:51:21.445 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath......................................SUCCESS [ 10 s ]
+10:51:21.445 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir......................................SUCCESS [  0 s ]
+10:51:21.447 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+10:51:21.447 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE FINDING: PATCHED
+10:51:21.447 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------

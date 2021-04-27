@@ -1,0 +1,97 @@
+10:23:24.588 [main] INFO  f.i.s.r.process.git.GitHelper - Init git submodules.
+10:23:39.733 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+10:23:39.735 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+10:23:39.735 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /tmp/test_gathertest10947221110482915002/repo/target/surefire-reports for the individual test results.
+10:23:39.735 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+10:23:39.742 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+10:23:39.743 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+10:23:39.743 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+10:23:39.743 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+10:23:39.744 [Thread-6] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+10:23:40.687 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+10:23:40.688 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /tmp/test_gathertest10947221110482915002/repo/src/main/java
+10:23:40.738 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest10947221110482915002/repo
+10:23:41.117 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+10:23:41.119 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 8
+10:23:41.119 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 8
+10:23:41.120 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 7
+10:23:41.120 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+10:23:41.120 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 1
+10:23:41.121 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+10:23:41.122 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Serialize all data for build: 208897371
+10:23:42.160 [main] INFO  f.i.s.r.process.git.GitHelper - Init git submodules.
+10:23:57.203 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+10:23:57.204 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /tmp/test_gathertest17647739313372960094/repo/src/main/java
+10:23:57.217 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+10:23:57.218 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 1
+10:23:57.218 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 1
+10:23:57.218 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 1
+10:23:57.219 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+10:23:57.219 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 0
+10:23:57.219 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+10:23:57.221 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Serialize all data for build: 201176013
+10:23:58.994 [main] INFO  f.i.s.r.process.git.GitHelper - Init git submodules.
+10:24:14.493 [Thread-14] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+10:24:14.496 [Thread-14] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+10:24:14.498 [Thread-14] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /tmp/test_gathertest3381904145110280104/repo/target/surefire-reports for the individual test results.
+10:24:14.499 [Thread-14] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+10:24:14.503 [Thread-14] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+10:24:14.504 [Thread-14] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+10:24:14.504 [Thread-14] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+10:24:14.505 [Thread-14] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+10:24:14.505 [Thread-14] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+10:24:15.031 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+10:24:15.032 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /tmp/test_gathertest3381904145110280104/repo/src/main/java
+10:24:15.093 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest3381904145110280104/repo
+10:24:15.103 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest3381904145110280104/repo
+10:24:15.114 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest3381904145110280104/repo
+10:24:15.117 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest3381904145110280104/repo
+10:24:15.120 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+10:24:15.120 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 26
+10:24:15.120 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 26
+10:24:15.120 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 21
+10:24:15.121 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+10:24:15.121 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 5
+10:24:15.121 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+10:24:15.122 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Serialize all data for build: 208240908
+10:24:16.002 [main] INFO  f.i.s.r.process.git.GitHelper - Init git submodules.
+10:24:31.056 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+10:24:31.056 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /tmp/test_gathertest12322770238337998787/repo/src/main/java
+10:24:31.063 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+10:24:31.063 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 1
+10:24:31.064 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 1
+10:24:31.064 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 1
+10:24:31.064 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+10:24:31.064 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 0
+10:24:31.064 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+10:24:31.066 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Serialize all data for build: 201176013
+10:24:32.531 [main] INFO  f.i.s.r.process.git.GitHelper - Init git submodules.
+10:24:48.012 [Thread-22] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+10:24:48.013 [Thread-22] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+10:24:48.013 [Thread-22] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /tmp/test_gathertest977924831002475335/repo/target/surefire-reports for the individual test results.
+10:24:48.013 [Thread-22] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+10:24:48.018 [Thread-22] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+10:24:48.018 [Thread-22] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+10:24:48.019 [Thread-22] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+10:24:48.019 [Thread-22] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+10:24:48.019 [Thread-22] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+10:24:48.602 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+10:24:48.602 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /tmp/test_gathertest977924831002475335/repo/src/main/java
+10:24:48.673 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest977924831002475335/repo
+10:24:48.677 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest977924831002475335/repo
+10:24:48.680 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest977924831002475335/repo
+10:24:48.689 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest977924831002475335/repo
+10:24:48.690 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest977924831002475335/repo
+10:24:48.690 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest977924831002475335/repo
+10:24:48.691 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest977924831002475335/repo
+10:24:48.691 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest977924831002475335/repo
+10:24:48.694 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest977924831002475335/repo
+10:24:48.694 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /tmp/test_gathertest977924831002475335/repo
+10:24:48.694 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+10:24:48.695 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 98
+10:24:48.695 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 98
+10:24:48.695 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 67
+10:24:48.695 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 26
+10:24:48.695 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 5
+10:24:48.695 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+10:24:48.695 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Serialize all data for build: 207890790

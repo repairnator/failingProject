@@ -1,0 +1,535 @@
+15:29:25.387 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java]
+15:29:25.389 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/test-classes/, file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/classes/, file:/home/andre/.m2/repository/fr/inria/gforge/spirals/nopol/666abb764bf1819f6c316faf4fe5b559ac583de1/nopol-666abb764bf1819f6c316faf4fe5b559ac583de1.jar]
+15:29:25.389 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+15:29:25.389 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [nopol_examples.nopol_example_1.NopolExampleTest]
+15:29:25.392 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/tmp/nopol9589200561372543399z3', projectSources=[/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java], projectClasspath='[Ljava.net.URL;@54d901aa', projectTests=[nopol_examples.nopol_example_1.NopolExampleTest], complianceLevel=7, outputFolder=/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/nopol, json=true}
+15:29:25.392 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 12
+15:29:25.395 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 47 MB
+15:29:25.396 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 1 GB
+15:29:25.396 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 126 MB
+15:29:25.397 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: null
+15:29:25.397 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: null
+15:29:25.397 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/andre/.scripts:/home/andre/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin
+15:29:27.682 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+15:29:27.709 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1
+15:29:27.709 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 1
+15:29:27.712 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+15:29:27.714 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+15:29:27.714 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+15:29:27.717 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+15:29:27.717 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+15:29:27.724 [main] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 2296ms
+15:29:27.724 [main] INFO  fr.inria.lille.repair.nopol.NoPol - 
+15:45:35.043 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java]
+15:45:35.053 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/test-classes/, file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/classes/, file:/home/andre/.m2/repository/fr/inria/gforge/spirals/nopol/666abb764bf1819f6c316faf4fe5b559ac583de1/nopol-666abb764bf1819f6c316faf4fe5b559ac583de1.jar]
+15:45:35.053 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+15:45:35.053 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [nopol_examples.nopol_example_1.NopolExampleTest, nopol_examples.nopol_example_2.NopolExampleTest]
+15:45:35.055 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/tmp/nopol807906115345432975z3', projectSources=[/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java], projectClasspath='[Ljava.net.URL;@3730ab42', projectTests=[nopol_examples.nopol_example_1.NopolExampleTest, nopol_examples.nopol_example_2.NopolExampleTest], complianceLevel=7, outputFolder=/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/nopol, json=true}
+15:45:35.055 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 12
+15:45:35.057 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 47 MB
+15:45:35.058 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 1 GB
+15:45:35.058 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 126 MB
+15:45:35.058 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: null
+15:45:35.058 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: null
+15:45:35.058 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/andre/.scripts:/home/andre/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin
+15:45:37.270 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+15:45:37.308 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 2
+15:45:37.309 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 3
+15:45:37.312 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+15:45:37.313 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+15:45:37.314 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+15:45:37.318 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+15:45:37.318 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+15:45:37.318 [main] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 2228ms
+15:45:37.319 [main] INFO  fr.inria.lille.repair.nopol.NoPol - 
+15:49:46.680 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java]
+15:49:46.682 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/test-classes/, file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/classes/, file:/home/andre/.m2/repository/fr/inria/gforge/spirals/nopol/666abb764bf1819f6c316faf4fe5b559ac583de1/nopol-666abb764bf1819f6c316faf4fe5b559ac583de1.jar]
+15:49:46.682 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+15:49:46.682 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [nopol_examples.nopol_example_1.NopolExampleTest, nopol_examples.nopol_example_7.NopolExampleTest, nopol_examples.nopol_example_2.NopolExampleTest]
+15:49:46.684 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/tmp/nopol17945557754535726167z3', projectSources=[/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java], projectClasspath='[Ljava.net.URL;@540b0448', projectTests=[nopol_examples.nopol_example_1.NopolExampleTest, nopol_examples.nopol_example_7.NopolExampleTest, nopol_examples.nopol_example_2.NopolExampleTest], complianceLevel=7, outputFolder=/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/nopol, json=true}
+15:49:46.684 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 12
+15:49:46.686 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 47 MB
+15:49:46.687 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 1 GB
+15:49:46.687 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 126 MB
+15:49:46.687 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: null
+15:49:46.687 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: null
+15:49:46.687 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/andre/.scripts:/home/andre/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin
+15:49:48.839 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+15:49:48.859 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 3
+15:49:48.859 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 4
+15:49:48.861 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+15:49:48.862 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+15:49:48.863 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+15:49:48.866 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+15:49:48.866 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+15:49:48.867 [main] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 2160ms
+15:49:48.867 [main] INFO  fr.inria.lille.repair.nopol.NoPol - 
+15:52:06.764 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java]
+15:52:06.766 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/test-classes/, file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/classes/, file:/home/andre/.m2/repository/fr/inria/gforge/spirals/nopol/666abb764bf1819f6c316faf4fe5b559ac583de1/nopol-666abb764bf1819f6c316faf4fe5b559ac583de1.jar]
+15:52:06.766 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+15:52:06.766 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [nopol_examples.nopol_example_1.NopolExampleTest, nopol_examples.nopol_example_7.NopolExampleTest, nopol_examples.nopol_example_2.NopolExampleTest]
+15:52:06.768 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=false, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/tmp/nopol10289947820135368366z3', projectSources=[/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java], projectClasspath='[Ljava.net.URL;@3b95d13c', projectTests=[nopol_examples.nopol_example_1.NopolExampleTest, nopol_examples.nopol_example_7.NopolExampleTest, nopol_examples.nopol_example_2.NopolExampleTest], complianceLevel=7, outputFolder=/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/nopol, json=true}
+15:52:06.769 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 12
+15:52:06.772 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 47 MB
+15:52:06.773 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 1 GB
+15:52:06.773 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 126 MB
+15:52:06.773 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: null
+15:52:06.773 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: null
+15:52:06.773 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/andre/.scripts:/home/andre/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin
+15:52:08.938 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+15:52:08.950 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 3
+15:52:08.950 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 4
+15:52:08.951 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+15:52:08.952 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+15:52:08.952 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+15:52:08.954 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+15:52:08.954 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+15:52:08.954 [main] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 2175ms
+15:52:08.954 [main] INFO  fr.inria.lille.repair.nopol.NoPol - 
+15:52:32.430 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java]
+15:52:32.432 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/test-classes/, file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/classes/, file:/home/andre/.m2/repository/fr/inria/gforge/spirals/nopol/666abb764bf1819f6c316faf4fe5b559ac583de1/nopol-666abb764bf1819f6c316faf4fe5b559ac583de1.jar]
+15:52:32.433 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: COND_THEN_PRE
+15:52:32.433 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [nopol_examples.nopol_example_1.NopolExampleTest, nopol_examples.nopol_example_7.NopolExampleTest, nopol_examples.nopol_example_2.NopolExampleTest]
+15:52:32.434 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=false, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=COND_THEN_PRE, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/tmp/nopol13733312132881166203z3', projectSources=[/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java], projectClasspath='[Ljava.net.URL;@3b95d13c', projectTests=[nopol_examples.nopol_example_1.NopolExampleTest, nopol_examples.nopol_example_7.NopolExampleTest, nopol_examples.nopol_example_2.NopolExampleTest], complianceLevel=7, outputFolder=/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/nopol, json=true}
+15:52:32.435 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 12
+15:52:32.437 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 47 MB
+15:52:32.437 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 1 GB
+15:52:32.437 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 126 MB
+15:52:32.438 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: null
+15:52:32.438 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: null
+15:52:32.438 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/andre/.scripts:/home/andre/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin
+15:52:34.599 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+15:52:34.611 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 3
+15:52:34.612 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 4
+15:52:34.613 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+15:52:34.614 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+15:52:34.615 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+15:52:34.617 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+15:52:34.617 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+15:52:34.617 [main] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 2170ms
+15:52:34.618 [main] INFO  fr.inria.lille.repair.nopol.NoPol - 
+15:53:39.734 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java]
+15:53:39.736 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/test-classes/, file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/classes/, file:/home/andre/.m2/repository/fr/inria/gforge/spirals/nopol/666abb764bf1819f6c316faf4fe5b559ac583de1/nopol-666abb764bf1819f6c316faf4fe5b559ac583de1.jar]
+15:53:39.736 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: COND_THEN_PRE
+15:53:39.737 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [nopol_examples.nopol_example_1.NopolExampleTest, nopol_examples.nopol_example_7.NopolExampleTest, nopol_examples.nopol_example_2.NopolExampleTest]
+15:53:39.738 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=false, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=COND_THEN_PRE, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/tmp/nopol11479143357269691428z3', projectSources=[/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java], projectClasspath='[Ljava.net.URL;@50a691d3', projectTests=[nopol_examples.nopol_example_1.NopolExampleTest, nopol_examples.nopol_example_7.NopolExampleTest, nopol_examples.nopol_example_2.NopolExampleTest], complianceLevel=8, outputFolder=/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/nopol, json=true}
+15:53:39.738 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 12
+15:53:39.741 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 47 MB
+15:53:39.741 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 1 GB
+15:53:39.741 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 126 MB
+15:53:39.741 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: null
+15:53:39.742 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: null
+15:53:39.742 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/andre/.scripts:/home/andre/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin
+15:53:41.956 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+15:53:41.966 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 3
+15:53:41.967 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 4
+15:53:41.970 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 0
+15:53:41.971 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 0
+15:53:41.972 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 0
+15:53:41.974 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 0
+15:53:41.974 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 0
+15:53:41.975 [main] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 2223ms
+15:53:41.975 [main] INFO  fr.inria.lille.repair.nopol.NoPol - 
+15:54:02.728 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java]
+15:54:02.729 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/test-classes/, file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/classes/, file:/home/andre/.m2/repository/fr/inria/gforge/spirals/nopol/666abb764bf1819f6c316faf4fe5b559ac583de1/nopol-666abb764bf1819f6c316faf4fe5b559ac583de1.jar]
+15:54:02.730 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: COND_THEN_PRE
+15:54:02.730 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [nopol_examples.nopol_example_1.NopolExampleTest, nopol_examples.nopol_example_7.NopolExampleTest, nopol_examples.nopol_example_2.NopolExampleTest]
+15:54:02.731 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=false, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=COND_THEN_PRE, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/tmp/nopol3346379221790905254z3', projectSources=[/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java], projectClasspath='[Ljava.net.URL;@23b3aa8c', projectTests=[nopol_examples.nopol_example_1.NopolExampleTest, nopol_examples.nopol_example_7.NopolExampleTest, nopol_examples.nopol_example_2.NopolExampleTest], complianceLevel=8, outputFolder=/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/nopol, json=true}
+15:54:02.732 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 12
+15:54:02.734 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 47 MB
+15:54:02.735 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 1 GB
+15:54:02.735 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 126 MB
+15:54:02.735 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: null
+15:54:02.735 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: null
+15:54:02.735 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/andre/.scripts:/home/andre/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin
+15:54:06.241 [pool-50-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: nopol_examples.nopol_example_2.NopolExample:11: CONDITIONAL 1 < (b - a)
+15:54:06.471 [pool-50-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "1 < (b - a)" is working
+15:54:06.751 [pool-100-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_2.NopolExample:11.
+15:54:07.059 [pool-116-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_2.NopolExample:12.
+15:54:07.426 [pool-132-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:16.
+15:54:07.726 [pool-138-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:15.
+15:54:07.992 [pool-144-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:15.
+15:54:08.486 [pool-150-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: nopol_examples.nopol_example_1.NopolExample:12: CONDITIONAL index < 1
+15:54:08.682 [pool-150-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "index < 1" is working
+15:54:08.893 [pool-191-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:12.
+15:54:09.202 [pool-197-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+NopolExample.java:29: error: variable variableInsideConstructor might not have been initialized
+        index = 2 * variableInsideConstructor;
+                    ^
+15:54:09.204 [pool-197-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class NopolExample {
+    public char charAt(java.lang.String s, int index) {
+        if (index == 0)
+            return s.charAt(0);
+
+        if (index < (s.length()))
+            return s.charAt(index);
+
+        return s.charAt(((s.length()) - 1));
+    }
+
+    public NopolExample() {
+        int variableInsideConstructor;
+        boolean spoonDefaultValue = false;
+        try {
+            spoonDefaultValue = true;
+        } catch (java.lang.Exception __NopolProcessorException) {
+        }
+        boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+        if (fr.inria.lille.commons.trace.RuntimeValues.instance(8).isEnabled()) {
+            fr.inria.lille.commons.trace.RuntimeValues.instance(8).collectionStarts();
+            fr.inria.lille.commons.trace.RuntimeValues.instance(8).collectOutput(runtimeAngelicValue);
+            fr.inria.lille.commons.trace.RuntimeValues.instance(8).collectionEnds();
+        }
+        if (runtimeAngelicValue)
+            variableInsideConstructor = 15;
+
+        index = 2 * variableInsideConstructor;
+    }
+
+    private int index = 419382;
+
+    private static java.lang.String s = "Overloading field name with parameter name";
+}
+15:54:09.204 [main] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+15:54:09.400 [pool-199-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:24.
+15:54:09.756 [pool-205-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: nopol_examples.nopol_example_7.NopolExample:22: PRECONDITION (2) != (a)
+15:54:09.931 [pool-205-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "(2) != (a)" is working
+15:54:10.591 [pool-223-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: nopol_examples.nopol_example_7.NopolExample:21: CONDITIONAL (intermediaire == 0) && (3 < a)
+15:54:10.765 [pool-223-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "(intermediaire == 0) && (3 < a)" is working
+15:54:11.101 [pool-343-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: nopol_examples.nopol_example_7.NopolExample:21: PRECONDITION (2) != (a)
+15:54:11.273 [pool-343-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "(2) != (a)" is working
+15:54:11.530 [pool-439-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_7.NopolExample:10.
+15:54:11.722 [pool-443-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_7.NopolExample:10.
+15:54:11.723 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+15:54:11.725 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 3
+15:54:11.725 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 4
+15:54:11.725 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 15
+15:54:11.725 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 5
+15:54:11.725 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 2
+15:54:11.725 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 2
+15:54:11.726 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT components: [4] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2]
+15:54:11.726 [main] INFO  fr.inria.lille.repair.nopol.NoPol -                   class java.lang.Boolean: 4
+15:54:11.726 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 9
+15:54:11.726 [main] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 8996ms
+15:54:11.726 [main] INFO  fr.inria.lille.repair.nopol.NoPol - 
+15:54:11.726 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+15:54:11.726 [main] INFO  fr.inria.lille.repair.nopol.NoPol - 1 < (b - a)
+15:54:11.727 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 9
+15:54:11.727 [main] INFO  fr.inria.lille.repair.nopol.NoPol - nopol_examples.nopol_example_2.NopolExample:11: CONDITIONAL
+15:54:11.735 [main] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_2/NopolExample.java
++++ b/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_2/NopolExample.java
+@@ -10,3 +10,3 @@
+ 	public int getMax(int a, int b){
+-		if ( (b - a) < 0 ){ // Fix a < b
++		if ( 1 < (b - a)){ // Fix a < b
+ 			return b;
+
+15:54:11.735 [main] INFO  fr.inria.lille.repair.nopol.NoPol - index < 1
+15:54:11.735 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 9
+15:54:11.736 [main] INFO  fr.inria.lille.repair.nopol.NoPol - nopol_examples.nopol_example_1.NopolExample:12: CONDITIONAL
+15:54:11.736 [main] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_1/NopolExample.java
++++ b/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_1/NopolExample.java
+@@ -11,4 +11,4 @@
+ 		
+-		if ( index == 0 ) // Fix index <= 0
+-			return s.charAt(0);
++		if ( index < 1) // Fix index <= 0
++		return s.charAt(0);
+ 		
+
+15:54:11.736 [main] INFO  fr.inria.lille.repair.nopol.NoPol - (2) != (a)
+15:54:11.737 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 4
+15:54:11.737 [main] INFO  fr.inria.lille.repair.nopol.NoPol - nopol_examples.nopol_example_7.NopolExample:22: PRECONDITION
+15:54:11.738 [main] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_7/NopolExample.java
++++ b/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_7/NopolExample.java
+@@ -21,3 +21,5 @@
+ 		if ( intermediaire == 0 )
+-			return false;
++			if ((2) != (a)) {
++				return false;
++			}
+ 		
+
+15:54:11.738 [main] INFO  fr.inria.lille.repair.nopol.NoPol - (intermediaire == 0) && (3 < a)
+15:54:11.738 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 30
+15:54:11.738 [main] INFO  fr.inria.lille.repair.nopol.NoPol - nopol_examples.nopol_example_7.NopolExample:21: CONDITIONAL
+15:54:11.739 [main] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_7/NopolExample.java
++++ b/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_7/NopolExample.java
+@@ -20,4 +20,4 @@
+ 		// FIX if ( intermediaire == 0 && a!=2)
+-		if ( intermediaire == 0 )
+-			return false;
++		if ( (intermediaire == 0) && (3 < a))
++		return false;
+ 		
+
+15:54:11.739 [main] INFO  fr.inria.lille.repair.nopol.NoPol - (2) != (a)
+15:54:11.740 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 30
+15:54:11.740 [main] INFO  fr.inria.lille.repair.nopol.NoPol - nopol_examples.nopol_example_7.NopolExample:21: PRECONDITION
+15:54:11.741 [main] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_7/NopolExample.java
++++ b/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_7/NopolExample.java
+@@ -20,4 +20,6 @@
+ 		// FIX if ( intermediaire == 0 && a!=2)
+-		if ( intermediaire == 0 )
++		if ((2) != (a)) {
++			if ( intermediaire == 0 )
+ 			return false;
++		}
+ 		
+
+15:55:24.078 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java]
+15:55:24.079 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/test-classes/, file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/classes/, file:/home/andre/.m2/repository/fr/inria/gforge/spirals/nopol/666abb764bf1819f6c316faf4fe5b559ac583de1/nopol-666abb764bf1819f6c316faf4fe5b559ac583de1.jar]
+15:55:24.079 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: COND_THEN_PRE
+15:55:24.080 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [nopol_examples.nopol_example_1.NopolExampleTest]
+15:55:24.082 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=false, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=COND_THEN_PRE, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/tmp/nopol8227158451616841453z3', projectSources=[/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java], projectClasspath='[Ljava.net.URL;@3fbfbf84', projectTests=[nopol_examples.nopol_example_1.NopolExampleTest], complianceLevel=7, outputFolder=/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/nopol, json=true}
+15:55:24.082 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 12
+15:55:24.086 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 47 MB
+15:55:24.086 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 1 GB
+15:55:24.086 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 126 MB
+15:55:24.086 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: null
+15:55:24.087 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: null
+15:55:24.087 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/andre/.scripts:/home/andre/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin
+15:55:26.662 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:16.
+15:55:26.984 [pool-16-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:15.
+15:55:27.266 [pool-22-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:15.
+15:55:27.583 [pool-28-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+NopolExample.java:29: error: variable variableInsideConstructor might not have been initialized
+        index = 2 * variableInsideConstructor;
+                    ^
+15:55:27.585 [pool-28-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class NopolExample {
+    public char charAt(java.lang.String s, int index) {
+        if (index == 0)
+            return s.charAt(0);
+
+        if (index < (s.length()))
+            return s.charAt(index);
+
+        return s.charAt(((s.length()) - 1));
+    }
+
+    public NopolExample() {
+        int variableInsideConstructor;
+        boolean spoonDefaultValue = false;
+        try {
+            spoonDefaultValue = true;
+        } catch (java.lang.Exception __NopolProcessorException) {
+        }
+        boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+        if (fr.inria.lille.commons.trace.RuntimeValues.instance(3).isEnabled()) {
+            fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectionStarts();
+            fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectOutput(runtimeAngelicValue);
+            fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectionEnds();
+        }
+        if (runtimeAngelicValue)
+            variableInsideConstructor = 15;
+
+        index = 2 * variableInsideConstructor;
+    }
+
+    private int index = 419382;
+
+    private static java.lang.String s = "Overloading field name with parameter name";
+}
+15:55:27.590 [main] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+15:55:27.875 [pool-30-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:24.
+15:55:28.447 [pool-36-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: nopol_examples.nopol_example_1.NopolExample:12: CONDITIONAL index < 1
+15:55:28.658 [pool-36-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "index < 1" is working
+15:55:28.919 [pool-77-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:12.
+15:55:28.920 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+15:55:28.925 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1
+15:55:28.925 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 1
+15:55:28.926 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 7
+15:55:28.926 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+15:55:28.926 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 7
+15:55:28.926 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 2
+15:55:28.926 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT components: [4] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2]
+15:55:28.926 [main] INFO  fr.inria.lille.repair.nopol.NoPol -                   class java.lang.Boolean: 4
+15:55:28.926 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 16
+15:55:28.927 [main] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 4843ms
+15:55:28.927 [main] INFO  fr.inria.lille.repair.nopol.NoPol - 
+15:55:28.927 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+15:55:28.927 [main] INFO  fr.inria.lille.repair.nopol.NoPol - index < 1
+15:55:28.927 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 9
+15:55:28.927 [main] INFO  fr.inria.lille.repair.nopol.NoPol - nopol_examples.nopol_example_1.NopolExample:12: CONDITIONAL
+15:55:28.936 [main] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_1/NopolExample.java
++++ b/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_1/NopolExample.java
+@@ -11,4 +11,4 @@
+ 		
+-		if ( index == 0 ) // Fix index <= 0
+-			return s.charAt(0);
++		if ( index < 1) // Fix index <= 0
++		return s.charAt(0);
+ 		
+
+15:55:55.211 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java]
+15:55:55.213 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/test-classes/, file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/classes/, file:/home/andre/.m2/repository/fr/inria/gforge/spirals/nopol/666abb764bf1819f6c316faf4fe5b559ac583de1/nopol-666abb764bf1819f6c316faf4fe5b559ac583de1.jar]
+15:55:55.213 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+15:55:55.213 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [nopol_examples.nopol_example_1.NopolExampleTest]
+15:55:55.215 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/tmp/nopol11330016702135975662z3', projectSources=[/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java], projectClasspath='[Ljava.net.URL;@54d901aa', projectTests=[nopol_examples.nopol_example_1.NopolExampleTest], complianceLevel=7, outputFolder=/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/nopol, json=true}
+15:55:55.216 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 12
+15:55:55.219 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 46 MB
+15:55:55.219 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 1 GB
+15:55:55.219 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 126 MB
+15:55:55.219 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: null
+15:55:55.219 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: null
+15:55:55.220 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/andre/.scripts:/home/andre/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin
+15:55:57.461 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:16.
+15:55:57.812 [pool-16-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:15.
+15:55:58.106 [pool-22-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:15.
+15:55:58.398 [pool-28-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+NopolExample.java:29: error: variable variableInsideConstructor might not have been initialized
+        index = 2 * variableInsideConstructor;
+                    ^
+15:55:58.400 [pool-28-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class NopolExample {
+    public char charAt(java.lang.String s, int index) {
+        if (index == 0)
+            return s.charAt(0);
+
+        if (index < (s.length()))
+            return s.charAt(index);
+
+        return s.charAt(((s.length()) - 1));
+    }
+
+    public NopolExample() {
+        int variableInsideConstructor;
+        boolean spoonDefaultValue = false;
+        try {
+            spoonDefaultValue = true;
+        } catch (java.lang.Exception __NopolProcessorException) {
+        }
+        boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+        if (fr.inria.lille.commons.trace.RuntimeValues.instance(3).isEnabled()) {
+            fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectionStarts();
+            fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectOutput(runtimeAngelicValue);
+            fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectionEnds();
+        }
+        if (runtimeAngelicValue)
+            variableInsideConstructor = 15;
+
+        index = 2 * variableInsideConstructor;
+    }
+
+    private int index = 419382;
+
+    private static java.lang.String s = "Overloading field name with parameter name";
+}
+15:55:58.401 [main] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+15:55:58.666 [pool-30-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:24.
+15:55:58.953 [pool-36-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:12.
+15:55:59.385 [pool-42-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: nopol_examples.nopol_example_1.NopolExample:12: CONDITIONAL index < 1
+15:55:59.574 [pool-42-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "index < 1" is working
+15:55:59.584 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+15:55:59.589 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1
+15:55:59.589 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 1
+15:55:59.589 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 7
+15:55:59.590 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+15:55:59.590 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 7
+15:55:59.590 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 2
+15:55:59.590 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT components: [4] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2]
+15:55:59.591 [main] INFO  fr.inria.lille.repair.nopol.NoPol -                   class java.lang.Boolean: 4
+15:55:59.591 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 16
+15:55:59.591 [main] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 4374ms
+15:55:59.592 [main] INFO  fr.inria.lille.repair.nopol.NoPol - 
+15:55:59.592 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+15:55:59.592 [main] INFO  fr.inria.lille.repair.nopol.NoPol - index < 1
+15:55:59.592 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 9
+15:55:59.593 [main] INFO  fr.inria.lille.repair.nopol.NoPol - nopol_examples.nopol_example_1.NopolExample:12: CONDITIONAL
+15:55:59.606 [main] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_1/NopolExample.java
++++ b/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_1/NopolExample.java
+@@ -11,4 +11,4 @@
+ 		
+-		if ( index == 0 ) // Fix index <= 0
+-			return s.charAt(0);
++		if ( index < 1) // Fix index <= 0
++		return s.charAt(0);
+ 		
+
+15:57:50.284 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java]
+15:57:50.285 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/test-classes/, file:/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/classes/, file:/home/andre/.m2/repository/fr/inria/gforge/spirals/nopol/666abb764bf1819f6c316faf4fe5b559ac583de1/nopol-666abb764bf1819f6c316faf4fe5b559ac583de1.jar]
+15:57:50.286 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+15:57:50.286 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [nopol_examples.nopol_example_1.NopolExampleTest]
+15:57:50.287 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/tmp/nopol18070654963046965005z3', projectSources=[/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/src/main/java], projectClasspath='[Ljava.net.URL;@54d901aa', projectTests=[nopol_examples.nopol_example_1.NopolExampleTest], complianceLevel=7, outputFolder=/home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example1/target/nopol, json=true}
+15:57:50.288 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 12
+15:57:50.290 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 47 MB
+15:57:50.291 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 1 GB
+15:57:50.291 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 126 MB
+15:57:50.291 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: null
+15:57:50.291 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: null
+15:57:50.291 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/andre/.scripts:/home/andre/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin
+15:57:52.392 [pool-10-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:16.
+15:57:52.718 [pool-16-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:15.
+15:57:52.973 [pool-22-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:15.
+15:57:53.287 [pool-28-thread-1] ERROR x.java.compiler.DynamicClassCompiler - [Compilation errors]
+NopolExample.java:29: error: variable variableInsideConstructor might not have been initialized
+        index = 2 * variableInsideConstructor;
+                    ^
+15:57:53.289 [pool-28-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class NopolExample {
+    public char charAt(java.lang.String s, int index) {
+        if (index == 0)
+            return s.charAt(0);
+
+        if (index < (s.length()))
+            return s.charAt(index);
+
+        return s.charAt(((s.length()) - 1));
+    }
+
+    public NopolExample() {
+        int variableInsideConstructor;
+        boolean spoonDefaultValue = false;
+        try {
+            spoonDefaultValue = true;
+        } catch (java.lang.Exception __NopolProcessorException) {
+        }
+        boolean runtimeAngelicValue = fr.inria.lille.repair.nopol.synth.AngelicExecution.angelicValue(spoonDefaultValue);
+        if (fr.inria.lille.commons.trace.RuntimeValues.instance(3).isEnabled()) {
+            fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectionStarts();
+            fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectOutput(runtimeAngelicValue);
+            fr.inria.lille.commons.trace.RuntimeValues.instance(3).collectionEnds();
+        }
+        if (runtimeAngelicValue)
+            variableInsideConstructor = 15;
+
+        index = 2 * variableInsideConstructor;
+    }
+
+    private int index = 419382;
+
+    private static java.lang.String s = "Overloading field name with parameter name";
+}
+15:57:53.290 [main] ERROR fr.inria.lille.repair.nopol.NoPol - Error ExecutionException java.util.concurrent.ExecutionException: xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation failed
+15:57:53.565 [pool-30-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:24.
+15:57:53.843 [pool-36-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation nopol_examples.nopol_example_1.NopolExample:12.
+15:57:54.264 [pool-42-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: nopol_examples.nopol_example_1.NopolExample:12: CONDITIONAL index < 1
+15:57:54.479 [pool-42-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "index < 1" is working
+15:57:54.488 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+15:57:54.491 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 1
+15:57:54.492 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 1
+15:57:54.492 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 7
+15:57:54.492 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+15:57:54.492 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 7
+15:57:54.492 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 2
+15:57:54.492 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT components: [4] [== of arity: 2, != of arity: 2, < of arity: 2, <= of arity: 2]
+15:57:54.492 [main] INFO  fr.inria.lille.repair.nopol.NoPol -                   class java.lang.Boolean: 4
+15:57:54.493 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 16
+15:57:54.493 [main] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 4205ms
+15:57:54.493 [main] INFO  fr.inria.lille.repair.nopol.NoPol - 
+15:57:54.493 [main] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+15:57:54.493 [main] INFO  fr.inria.lille.repair.nopol.NoPol - index < 1
+15:57:54.493 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Nb test that executes the patch: 9
+15:57:54.493 [main] INFO  fr.inria.lille.repair.nopol.NoPol - nopol_examples.nopol_example_1.NopolExample:12: CONDITIONAL
+15:57:54.502 [main] INFO  fr.inria.lille.repair.nopol.NoPol - --- a/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_1/NopolExample.java
++++ b/src/test/resources/projects/example1/src/main/java/nopol_examples/nopol_example_1/NopolExample.java
+@@ -11,4 +11,4 @@
+ 		
+-		if ( index == 0 ) // Fix index <= 0
+-			return s.charAt(0);
++		if ( index < 1) // Fix index <= 0
++		return s.charAt(0);
+ 		
+

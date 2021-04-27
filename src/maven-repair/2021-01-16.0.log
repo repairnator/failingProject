@@ -1,0 +1,418 @@
+15:38:56.724 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+15:38:56.727 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE STEPS
+15:38:56.727 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+15:38:56.728 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix
+15:38:56.728 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject
+15:38:56.728 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject
+15:38:56.728 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation
+15:38:56.728 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath
+15:38:56.728 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir
+15:38:56.731 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir
+15:38:56.732 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules
+15:38:56.732 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile
+15:38:56.736 [main] INFO  f.i.s.r.process.step.BuildProject - Running MavenHelper to install artifacts: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2//pom.xml
+15:39:13.741 [main] INFO  f.i.s.r.process.step.BuildProject - MavenHelper finished installing artifacts
+15:39:16.362 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+15:39:16.363 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+15:39:16.363 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/target/surefire-reports for the individual test results.
+15:39:16.364 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+15:39:16.376 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+15:39:16.376 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+15:39:16.377 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+15:39:16.377 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+15:39:16.378 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+15:39:16.824 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2
+15:39:16.827 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+15:39:16.827 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 1
+15:39:16.827 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 1
+15:39:16.827 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 0
+15:39:16.827 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+15:39:16.827 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 1
+15:39:16.827 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+15:39:28.832 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+15:39:28.833 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/main/java
+15:39:28.841 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - 1 test dir was found:
+15:39:28.841 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/test/java
+15:39:28.857 [main] INFO  f.i.s.r.p.step.repair.NPERepair - NPE found, start NPEFix
+15:39:30.199 [main] INFO  f.i.s.r.p.step.repair.NPERepair - The repository won't be forked.
+15:39:30.216 [main] INFO  f.i.s.r.p.step.repair.NPERepair - 
+15:39:30.298 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+15:39:30.298 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE EXECUTION SUMMARY
+15:39:30.298 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+15:39:30.299 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix................................................SUCCESS [  1 s ]
+15:39:30.299 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject..........................................SUCCESS [ 17 s ]
+15:39:30.299 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject...........................................SUCCESS [  3 s ]
+15:39:30.299 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation.................................SUCCESS [  0 s ]
+15:39:30.299 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath......................................SUCCESS [ 12 s ]
+15:39:30.299 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir......................................SUCCESS [  0 s ]
+15:39:30.299 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir........................................SUCCESS [  0 s ]
+15:39:30.300 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules........................................SUCCESS [  0 s ]
+15:39:30.300 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile.....................................SUCCESS [  0 s ]
+15:39:30.301 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+15:39:30.301 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE FINDING: PATCHED
+15:39:30.301 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+15:50:11.940 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+15:50:11.943 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE STEPS
+15:50:11.943 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+15:50:11.943 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix
+15:50:11.943 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject
+15:50:11.943 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject
+15:50:11.943 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation
+15:50:11.943 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath
+15:50:11.944 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir
+15:50:11.947 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir
+15:50:11.947 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules
+15:50:11.947 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile
+15:50:11.950 [main] INFO  f.i.s.r.process.step.BuildProject - Running MavenHelper to install artifacts: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2//pom.xml
+15:50:29.956 [main] INFO  f.i.s.r.process.step.BuildProject - MavenHelper finished installing artifacts
+15:50:32.561 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+15:50:32.562 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+15:50:32.562 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/target/surefire-reports for the individual test results.
+15:50:32.562 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+15:50:32.570 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+15:50:32.570 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+15:50:32.570 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+15:50:32.571 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+15:50:32.571 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+15:50:33.027 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2
+15:50:33.029 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+15:50:33.030 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 1
+15:50:33.030 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 1
+15:50:33.030 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 0
+15:50:33.030 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+15:50:33.030 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 1
+15:50:33.031 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+15:50:45.035 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+15:50:45.036 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/main/java
+15:50:45.044 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - 1 test dir was found:
+15:50:45.044 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/test/java
+15:50:45.061 [main] INFO  f.i.s.r.p.step.repair.NPERepair - NPE found, start NPEFix
+15:50:46.503 [main] INFO  f.i.s.r.p.step.repair.NPERepair - The repository won't be forked.
+15:50:46.520 [main] INFO  f.i.s.r.p.step.repair.NPERepair - 
+15:50:46.600 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+15:50:46.600 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE EXECUTION SUMMARY
+15:50:46.600 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+15:50:46.601 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix................................................SUCCESS [  1 s ]
+15:50:46.601 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject..........................................SUCCESS [ 18 s ]
+15:50:46.601 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject...........................................SUCCESS [  3 s ]
+15:50:46.601 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation.................................SUCCESS [  0 s ]
+15:50:46.601 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath......................................SUCCESS [ 12 s ]
+15:50:46.601 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir......................................SUCCESS [  0 s ]
+15:50:46.601 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir........................................SUCCESS [  0 s ]
+15:50:46.601 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules........................................SUCCESS [  0 s ]
+15:50:46.601 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile.....................................SUCCESS [  0 s ]
+15:50:46.603 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+15:50:46.603 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE FINDING: PATCHED
+15:50:46.603 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:01:24.657 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:01:24.672 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE STEPS
+16:01:24.673 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:01:24.673 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix
+16:01:24.673 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject
+16:01:24.673 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject
+16:01:24.673 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation
+16:01:24.673 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath
+16:01:24.673 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir
+16:01:24.676 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir
+16:01:24.676 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules
+16:01:24.676 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile
+16:01:24.679 [main] INFO  f.i.s.r.process.step.BuildProject - Running MavenHelper to install artifacts: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2//pom.xml
+16:01:41.686 [main] INFO  f.i.s.r.process.step.BuildProject - MavenHelper finished installing artifacts
+16:01:44.243 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+16:01:44.244 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:01:44.244 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/target/surefire-reports for the individual test results.
+16:01:44.244 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+16:01:44.254 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:01:44.254 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+16:01:44.254 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:01:44.255 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+16:01:44.255 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+16:01:44.768 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2
+16:01:44.772 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+16:01:44.772 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 1
+16:01:44.773 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 1
+16:01:44.773 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 0
+16:01:44.773 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+16:01:44.773 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 1
+16:01:44.773 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+16:01:57.779 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+16:01:57.779 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/main/java
+16:01:57.787 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - 1 test dir was found:
+16:01:57.787 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/test/java
+16:01:57.802 [main] INFO  f.i.s.r.p.step.repair.NPERepair - NPE found, start NPEFix
+16:01:59.162 [main] INFO  f.i.s.r.p.step.repair.NPERepair - The repository won't be forked.
+16:01:59.183 [main] INFO  f.i.s.r.p.step.repair.NPERepair - 
+16:01:59.260 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:01:59.260 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE EXECUTION SUMMARY
+16:01:59.260 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:01:59.260 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix................................................SUCCESS [  1 s ]
+16:01:59.261 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject..........................................SUCCESS [ 17 s ]
+16:01:59.261 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject...........................................SUCCESS [  3 s ]
+16:01:59.261 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation.................................SUCCESS [  0 s ]
+16:01:59.261 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath......................................SUCCESS [ 13 s ]
+16:01:59.261 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir......................................SUCCESS [  0 s ]
+16:01:59.261 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir........................................SUCCESS [  0 s ]
+16:01:59.261 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules........................................SUCCESS [  0 s ]
+16:01:59.261 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile.....................................SUCCESS [  0 s ]
+16:01:59.262 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:01:59.262 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE FINDING: PATCHED
+16:01:59.262 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:10:35.402 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:10:35.429 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE STEPS
+16:10:35.429 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:10:35.429 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix
+16:10:35.430 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject
+16:10:35.430 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject
+16:10:35.430 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation
+16:10:35.430 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath
+16:10:35.430 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir
+16:10:35.434 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir
+16:10:35.434 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules
+16:10:35.435 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile
+16:10:35.439 [main] INFO  f.i.s.r.process.step.BuildProject - Running MavenHelper to install artifacts: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2//pom.xml
+16:10:52.444 [main] INFO  f.i.s.r.process.step.BuildProject - MavenHelper finished installing artifacts
+16:10:55.006 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+16:10:55.006 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:10:55.007 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/target/surefire-reports for the individual test results.
+16:10:55.007 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+16:10:55.013 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:10:55.013 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+16:10:55.013 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:10:55.014 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+16:10:55.014 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+16:10:55.519 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2
+16:10:55.521 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+16:10:55.522 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 1
+16:10:55.522 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 1
+16:10:55.522 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 0
+16:10:55.522 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+16:10:55.522 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 1
+16:10:55.522 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+16:11:07.526 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+16:11:07.526 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/main/java
+16:11:07.532 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - 1 test dir was found:
+16:11:07.532 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/test/java
+16:11:07.542 [main] INFO  f.i.s.r.p.step.repair.NPERepair - NPE found, start NPEFix
+16:11:08.952 [main] INFO  f.i.s.r.p.step.repair.NPERepair - The repository won't be forked.
+16:11:08.972 [main] INFO  f.i.s.r.p.step.repair.NPERepair - 
+16:11:09.054 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:11:09.054 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE EXECUTION SUMMARY
+16:11:09.054 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:11:09.054 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix................................................SUCCESS [  1 s ]
+16:11:09.055 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject..........................................SUCCESS [ 17 s ]
+16:11:09.055 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject...........................................SUCCESS [  3 s ]
+16:11:09.055 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation.................................SUCCESS [  0 s ]
+16:11:09.055 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath......................................SUCCESS [ 12 s ]
+16:11:09.055 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir......................................SUCCESS [  0 s ]
+16:11:09.055 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir........................................SUCCESS [  0 s ]
+16:11:09.056 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules........................................SUCCESS [  0 s ]
+16:11:09.056 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile.....................................SUCCESS [  0 s ]
+16:11:09.057 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:11:09.057 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE FINDING: PATCHED
+16:11:09.057 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:21:35.621 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:21:35.641 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE STEPS
+16:21:35.641 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:21:35.642 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix
+16:21:35.642 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject
+16:21:35.642 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject
+16:21:35.642 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation
+16:21:35.642 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath
+16:21:35.642 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir
+16:21:35.643 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir
+16:21:35.647 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules
+16:21:35.648 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile
+16:21:35.651 [main] INFO  f.i.s.r.process.step.BuildProject - Running MavenHelper to install artifacts: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2//pom.xml
+16:21:52.656 [main] INFO  f.i.s.r.process.step.BuildProject - MavenHelper finished installing artifacts
+16:21:55.592 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+16:21:55.593 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:21:55.593 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/target/surefire-reports for the individual test results.
+16:21:55.594 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+16:21:55.613 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:21:55.613 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+16:21:55.614 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:21:55.614 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+16:21:55.614 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+16:21:55.737 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2
+16:21:55.739 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+16:21:55.740 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 1
+16:21:55.740 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 1
+16:21:55.740 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 0
+16:21:55.740 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+16:21:55.740 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 1
+16:21:55.740 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+16:22:07.747 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+16:22:07.748 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/main/java
+16:22:07.757 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - 1 test dir was found:
+16:22:07.758 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/test/java
+16:22:07.768 [main] INFO  f.i.s.r.p.step.repair.NPERepair - NPE found, start NPEFix
+16:22:09.457 [main] INFO  f.i.s.r.p.step.repair.NPERepair - The repository won't be forked.
+16:22:09.477 [main] INFO  f.i.s.r.p.step.repair.NPERepair - 
+16:22:09.570 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:22:09.570 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE EXECUTION SUMMARY
+16:22:09.570 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:22:09.570 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix................................................SUCCESS [  1 s ]
+16:22:09.570 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject..........................................SUCCESS [ 17 s ]
+16:22:09.570 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject...........................................SUCCESS [  3 s ]
+16:22:09.571 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation.................................SUCCESS [  0 s ]
+16:22:09.571 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath......................................SUCCESS [ 12 s ]
+16:22:09.571 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir......................................SUCCESS [  0 s ]
+16:22:09.571 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir........................................SUCCESS [  0 s ]
+16:22:09.571 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules........................................SUCCESS [  0 s ]
+16:22:09.571 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile.....................................SUCCESS [  0 s ]
+16:22:09.574 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:22:09.575 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE FINDING: PATCHED
+16:22:09.575 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:26:35.741 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:26:35.762 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE STEPS
+16:26:35.762 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:26:35.762 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix
+16:26:35.762 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject
+16:26:35.763 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject
+16:26:35.763 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation
+16:26:35.763 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath
+16:26:35.763 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir
+16:26:35.766 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir
+16:26:35.766 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules
+16:26:35.766 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile
+16:26:56.578 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+16:26:56.579 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:26:56.580 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/target/surefire-reports for the individual test results.
+16:26:56.580 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+16:26:56.600 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:26:56.601 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+16:26:56.601 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:26:56.601 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+16:26:56.601 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+16:26:56.837 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2
+16:26:56.839 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+16:26:56.839 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 1
+16:26:56.839 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 1
+16:26:56.839 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 0
+16:26:56.839 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+16:26:56.839 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 1
+16:26:56.840 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+16:27:08.844 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+16:27:08.845 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/main/java
+16:27:08.853 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - 1 test dir was found:
+16:27:08.854 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/test/java
+16:27:08.863 [main] INFO  f.i.s.r.p.step.repair.NPERepair - NPE found, start NPEFix
+16:27:10.360 [main] INFO  f.i.s.r.p.step.repair.NPERepair - The repository won't be forked.
+16:27:10.379 [main] INFO  f.i.s.r.p.step.repair.NPERepair - 
+16:27:10.470 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:27:10.471 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE EXECUTION SUMMARY
+16:27:10.471 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:27:10.471 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix................................................SUCCESS [  1 s ]
+16:27:10.471 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject..........................................SUCCESS [ 18 s ]
+16:27:10.471 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject...........................................SUCCESS [  3 s ]
+16:27:10.471 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation.................................SUCCESS [  0 s ]
+16:27:10.471 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath......................................SUCCESS [ 12 s ]
+16:27:10.471 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir......................................SUCCESS [  0 s ]
+16:27:10.471 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir........................................SUCCESS [  0 s ]
+16:27:10.471 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules........................................SUCCESS [  0 s ]
+16:27:10.472 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile.....................................SUCCESS [  0 s ]
+16:27:10.473 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:27:10.473 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE FINDING: PATCHED
+16:27:10.473 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:31:14.123 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:31:14.133 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE STEPS
+16:31:14.134 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:31:14.134 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix
+16:31:14.134 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject
+16:31:14.134 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject
+16:31:14.134 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation
+16:31:14.134 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath
+16:31:14.134 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir
+16:31:14.138 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir
+16:31:14.138 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules
+16:31:14.139 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile
+16:31:33.964 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+16:31:33.964 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:31:33.964 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/target/surefire-reports for the individual test results.
+16:31:33.965 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+16:31:33.984 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:31:33.984 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+16:31:33.984 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+16:31:33.984 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+16:31:33.985 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+16:31:34.213 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2
+16:31:34.216 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+16:31:34.217 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 1
+16:31:34.217 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 1
+16:31:34.217 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 0
+16:31:34.218 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+16:31:34.218 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 1
+16:31:34.218 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+16:31:46.224 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+16:31:46.224 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/main/java
+16:31:46.231 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - 1 test dir was found:
+16:31:46.232 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/test/java
+16:31:46.247 [main] INFO  f.i.s.r.p.step.repair.NPERepair - NPE found, start NPEFix
+16:31:47.579 [main] INFO  f.i.s.r.p.step.repair.NPERepair - The repository won't be forked.
+16:31:47.595 [main] INFO  f.i.s.r.p.step.repair.NPERepair - 
+16:31:47.674 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:31:47.674 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE EXECUTION SUMMARY
+16:31:47.674 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:31:47.674 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFix................................................SUCCESS [  1 s ]
+16:31:47.674 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject..........................................SUCCESS [ 17 s ]
+16:31:47.674 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject...........................................SUCCESS [  3 s ]
+16:31:47.674 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation.................................SUCCESS [  0 s ]
+16:31:47.675 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath......................................SUCCESS [ 12 s ]
+16:31:47.675 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir......................................SUCCESS [  0 s ]
+16:31:47.675 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir........................................SUCCESS [  0 s ]
+16:31:47.675 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules........................................SUCCESS [  0 s ]
+16:31:47.675 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile.....................................SUCCESS [  0 s ]
+16:31:47.676 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+16:31:47.676 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE FINDING: PATCHED
+16:31:47.676 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+18:36:41.639 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+18:36:41.680 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE STEPS
+18:36:41.681 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+18:36:41.681 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFixSafe
+18:36:41.681 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject
+18:36:41.681 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject
+18:36:41.681 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation
+18:36:41.681 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath
+18:36:41.681 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir
+18:36:41.685 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir
+18:36:41.685 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules
+18:36:41.685 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile
+18:37:01.845 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project test-projects: There are test failures.
+18:37:01.846 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+18:37:01.847 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Please refer to /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/target/surefire-reports for the individual test results.
+18:37:01.847 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] -> [Help 1]
+18:37:01.855 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+18:37:01.856 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+18:37:01.856 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] 
+18:37:01.856 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] For more information about the errors and possible solutions, please read the following articles:
+18:37:01.857 [Thread-5] ERROR f.i.s.r.p.m.o.MavenFilterOutputHandler - [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+18:37:02.766 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - Get the following failing module path: /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2
+18:37:02.768 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation - ---Test results---
+18:37:02.769 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Total tests: 1
+18:37:02.769 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests run: 1
+18:37:02.769 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Tests passing: 0
+18:37:02.770 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Failures: 0
+18:37:02.770 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Errors: 1
+18:37:02.770 [main] INFO  f.i.s.r.p.s.g.GatherTestInformation -    Skipped: 0
+18:37:15.776 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - 1 source dir was found:
+18:37:15.776 [main] INFO  f.i.s.r.p.s.paths.ComputeSourceDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/main/java
+18:37:15.785 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - 1 test dir was found:
+18:37:15.785 [main] INFO  f.i.s.r.p.step.paths.ComputeTestDir - /home/andre/Repos/repairnator/src/maven-repair/src/test/resources/projects/example2/src/test/java
+18:37:15.803 [main] INFO  f.i.s.r.p.step.repair.NPERepairSafe - NPE found, start NPEFix
+18:37:17.426 [main] INFO  f.i.s.r.p.step.repair.NPERepairSafe - The repository won't be forked.
+18:37:17.448 [main] INFO  f.i.s.r.p.step.repair.NPERepairSafe - 
+18:37:17.538 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+18:37:17.538 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE EXECUTION SUMMARY
+18:37:17.538 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+18:37:17.539 [main] INFO  f.i.s.r.p.i.ProjectInspector - NPEFixSafe............................................SUCCESS [  1 s ]
+18:37:17.539 [main] INFO  f.i.s.r.p.i.ProjectInspector - BuildProject..........................................SUCCESS [ 17 s ]
+18:37:17.539 [main] INFO  f.i.s.r.p.i.ProjectInspector - TestProject...........................................SUCCESS [  4 s ]
+18:37:17.539 [main] INFO  f.i.s.r.p.i.ProjectInspector - GatherTestInformation.................................SUCCESS [  0 s ]
+18:37:17.539 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeClasspath......................................SUCCESS [ 13 s ]
+18:37:17.539 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeSourceDir......................................SUCCESS [  0 s ]
+18:37:17.539 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeTestDir........................................SUCCESS [  0 s ]
+18:37:17.540 [main] INFO  f.i.s.r.p.i.ProjectInspector - ComputeModules........................................SUCCESS [  0 s ]
+18:37:17.540 [main] INFO  f.i.s.r.p.i.ProjectInspector - WritePropertyFile.....................................SUCCESS [  0 s ]
+18:37:17.541 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
+18:37:17.542 [main] INFO  f.i.s.r.p.i.ProjectInspector - PIPELINE FINDING: PATCHED
+18:37:17.542 [main] INFO  f.i.s.r.p.i.ProjectInspector - ----------------------------------------------------------------------
